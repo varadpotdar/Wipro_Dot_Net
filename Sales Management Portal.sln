@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1913
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sales Management Portal", "Sales Management Portal\", "{B76A5B9A-E49F-4EB8-BC31-524E138B79FA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62098"
+		Debug.AspNetCompiler.PhysicalPath = "Sales Management Portal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62098\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62098"
+		Release.AspNetCompiler.PhysicalPath = "Sales Management Portal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62098\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62098"
+		SlnRelativePath = "Sales Management Portal\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B76A5B9A-E49F-4EB8-BC31-524E138B79FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76A5B9A-E49F-4EB8-BC31-524E138B79FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93DA8C40-89B8-47EA-8A92-B24311F2AF10}
+	EndGlobalSection
+EndGlobal
