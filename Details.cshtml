@@ -1,0 +1,48 @@
+﻿@model Phase4JoePizzaProject.Models.Order
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Qty)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Qty)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Unit_Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Unit_Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_Bill)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Order_Bill)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_Date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Order_Date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FkProdId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FkProdId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

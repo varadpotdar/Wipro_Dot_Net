@@ -1,0 +1,51 @@
+﻿@model Phase4JoePizzaProject.Models.Order
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Qty)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Qty)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Unit_Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Unit_Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_Bill)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Order_Bill)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_Date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Order_Date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FkProdId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FkProdId)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
